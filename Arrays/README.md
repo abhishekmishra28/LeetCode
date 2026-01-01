@@ -1,60 +1,60 @@
-# Design Problems
+# Arrays Problems
 
-This folder contains problems that focus on **designing data structures or systems**
-with specific constraints such as time complexity, memory usage, and behavior.
+This folder contains problems that focus on working with **arrays** —
+one of the most fundamental data structures in programming.
 
-These questions usually require combining multiple data structures and understanding
-how operations work internally — not just writing a single algorithm.
+Array questions help build strong foundations in iteration, indexing,
+boundary handling, and optimizing time/space complexity.
 
 ---
 
 ## 🎯 What you’ll practice here
 
-- Designing reusable data structures  
-- Maintaining O(1) or near-O(1) operations  
-- Handling tricky edge cases  
-- Writing clean, modular, and intuitive code  
-- Explaining the reasoning behind each design
+- Traversing arrays efficiently  
+- Handling carry, rotation, merging, and searching  
+- Understanding off-by-one and boundary edge cases  
+- Using arrays with hashing and sorting  
+- Writing clean, readable, and optimized code  
 
 ---
 
 ## 🧩 Common patterns in this folder
 
-- HashMap + Doubly Linked List (e.g., **LRU Cache**)  
-- Queue / Stack designs  
-- Set / Map-based designs  
-- Custom iterators  
-- Caching strategies  
-- Rate limiters / hit counters  
-- Object-oriented design thinking
+- Prefix / suffix techniques  
+- Two-pointer approach  
+- Sliding window  
+- Sorting + greedy  
+- Hash-based lookups  
+- In-place modification  
+- Carry propagation problems (like **Plus One**)  
 
 ---
 
 ## 📝 Format for each problem
 
-Every problem in this folder includes:
+Each solution typically contains:
 
 1. **Problem summary**
-2. **Intuition**
-3. **Design explanation (how the data structure works)**
-4. **Complexity analysis**
-5. **Code implementation**
+2. **Intuition / thought process**
+3. **Approach explanation**
+4. **Time & space complexity**
+5. **C++ implementation**
 
 ---
 
 ## 📌 Examples included (or coming soon)
 
-- LRU Cache  
-- LFU Cache  
-- Min Stack  
-- Recent Counter  
-- Design HashMap / HashSet  
-- Design Twitter  
-- Design Circular Queue  
+- Plus One  
+- Two Sum  
+- Merge Sorted Arrays  
+- Rotate Array  
+- Remove Duplicates  
+- Move Zeroes  
+- Best Time to Buy & Sell Stock  
 
 ---
 
-Design problems are great preparation for **interviews and real-world systems**,  
-so I revisit and improve solutions regularly.
+Arrays appear everywhere — from interview questions to real-world applications —  
+so building strong array intuition will make advanced topics easier later.
 
-Happy building! 🚀
+Happy coding! 🚀
