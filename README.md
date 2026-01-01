@@ -56,13 +56,13 @@ This helps build patterns instead of memorizing answers.
 
 | Category | Solved |
 |----------|--------|
-| Arrays |  |
-| Strings |  |
-| Linked List |  |
-| Trees |  |
-| Graphs |  |
-| Dynamic Programming |  |
-| Others |  |
+| Arrays | 1 |
+| Strings | 0 |
+| Linked List | 0 |
+| Trees | 0 |
+| Graphs | 0 |
+| Dynamic Programming | 0 |
+| Others | 0 |
 
 (I update this table as I go.)
 
