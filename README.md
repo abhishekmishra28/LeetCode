@@ -33,7 +33,7 @@ LeetCode/
 
 Each folder contains:
 
-- `problem-name.ext`
+- `codeName.cpp` -> Actual Code
 - `README.md` → explanation + approach
 
 ---
