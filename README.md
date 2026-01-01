@@ -33,8 +33,8 @@ LeetCode/
 
 Each folder contains:
 
-- `codeName.cpp` -> Actual Code
-- `README.md` → explanation + approach
+- `codeName.cpp` -> Actual Code wih Explaination
+- `README.md` → About the Topic
 
 ---
 
