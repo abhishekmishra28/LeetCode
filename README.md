@@ -18,16 +18,17 @@ I maintain this as a learning journal and as a reference for interview preparati
 
 ## 📁 Repository Structure
 
+```text
 LeetCode/
-├── Arrays/
-├── Strings/
-├── LinkedList/
-├── Trees/
-├── Graphs/
-├── DynamicProgramming/
-├── Greedy/
-├── Backtracking/
-└── Others/
+ ├── Arrays/
+ ├── Strings/
+ ├── LinkedList/
+ ├── Trees/
+ ├── Graphs/
+ ├── DynamicProgramming/
+ ├── Greedy/
+ ├── Backtracking/
+ └── Others/
 
 
 Each folder contains:
