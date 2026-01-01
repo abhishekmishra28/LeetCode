@@ -62,7 +62,6 @@ This helps build patterns instead of memorizing answers.
 | Trees | 0 |
 | Graphs | 0 |
 | Dynamic Programming | 0 |
-| Design | 0 | 
 | Others | 0 |
 
 (I update this table as I go.)
