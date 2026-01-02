@@ -56,7 +56,7 @@ This helps build patterns instead of memorizing answers.
 
 | Category | Solved |
 |----------|--------|
-| Arrays | 1 |
+| Arrays | 2 |
 | Strings | 0 |
 | Linked List | 0 |
 | Trees | 0 |
