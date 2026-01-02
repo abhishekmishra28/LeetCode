@@ -1,0 +1,7 @@
+Day 1 (01/01/26) : 1. Plus One (LC : 66) 
+                   2. Lexicographical Numbers (LC : 386)
+
+Day 2 (02/01/26) : 1. LRU Cache (LC : 146)
+                   2. Design Linked List (LC : 707)
+                   3. N-Repeated Element in Size 2N Array (LC : 961)
+                   4. Find Center of Star Graph (LC : 1791)
