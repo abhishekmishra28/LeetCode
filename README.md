@@ -60,7 +60,7 @@ This helps build patterns instead of memorizing answers.
 | Strings | 0 |
 | Linked List | 0 |
 | Trees | 0 |
-| Graphs | 3 |
+| Graphs | 4 |
 | Dynamic Programming | 2 |
 | Design | 2 |
 | Others | 0 |
