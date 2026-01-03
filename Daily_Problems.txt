@@ -1,13 +1,19 @@
-Day 1 (01/01/26) : 1. Plus One (LC : 66) 
+Day 1 (01/01/26) : 
+                   1. Plus One (LC : 66) 
                    2. Lexicographical Numbers (LC : 386)
 
-Day 2 (02/01/26) : 1. LRU Cache (LC : 146)
+Day 2 (02/01/26) : 
+                   1. LRU Cache (LC : 146)
                    2. Design Linked List (LC : 707)
                    3. N-Repeated Element in Size 2N Array (LC : 961)
                    4. Find Center of Star Graph (LC : 1791)
                    5. Coloring a Border (LC : 1034)
 
-Day 3 (03/01/26) : 1. Number of Ways to Paint N × 3 Grid (LC : 1411)
+Day 3 (03/01/26) : 
+                   1. Number of Ways to Paint N × 3 Grid (LC : 1411)
                    2. Painting a Grid With Three Different Colors (LC : 1931)
                    3. 01 Matrix (LC : 542)
                    4. Map of the Highest Peak (LC : 1765)
+
+Day 4 (04/01/26) : 
+                   1. Shortest Bridge (LC : 934)
