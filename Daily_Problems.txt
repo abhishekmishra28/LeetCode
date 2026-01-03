@@ -6,3 +6,6 @@ Day 2 (02/01/26) : 1. LRU Cache (LC : 146)
                    3. N-Repeated Element in Size 2N Array (LC : 961)
                    4. Find Center of Star Graph (LC : 1791)
                    5. Coloring a Border (LC : 1034)
+
+Day 3 (03/01/26) : 1. Number of Ways to Paint N × 3 Grid (LC : 1411)
+                   2. Painting a Grid With Three Different Colors (LC : 1931)
