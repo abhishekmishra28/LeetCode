@@ -61,7 +61,7 @@ This helps build patterns instead of memorizing answers.
 | Linked List | 0 |
 | Trees | 0 |
 | Graphs | 3 |
-| Dynamic Programming | 1 |
+| Dynamic Programming | 2 |
 | Design | 2 |
 | Others | 0 |
 
