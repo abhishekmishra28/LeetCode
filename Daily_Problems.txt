@@ -9,3 +9,4 @@ Day 2 (02/01/26) : 1. LRU Cache (LC : 146)
 
 Day 3 (03/01/26) : 1. Number of Ways to Paint N × 3 Grid (LC : 1411)
                    2. Painting a Grid With Three Different Colors (LC : 1931)
+                   3. 01 Matrix (LC : 542)
