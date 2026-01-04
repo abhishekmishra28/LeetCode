@@ -17,3 +17,4 @@ Day 3 (03/01/26) :
 
 Day 4 (04/01/26) : 
                    1. Shortest Bridge (LC : 934)
+                   2. Four Divisors (LC : 1390)
