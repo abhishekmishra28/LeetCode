@@ -26,13 +26,16 @@ for label, folder in categories.items():
     else:
         counts[label] = 0
 
+total = sum(counts.values())   # ➜ NEW
+
 with open("README.md", "r") as f:
     content = f.read()
 
 table = (
     "| Category | Solved |\n"
     "|----------|--------|\n" +
-    "\n".join([f"| {k} | {v} |" for k, v in counts.items()])
+    "\n".join([f"| {k} | {v} |" for k, v in counts.items()]) +
+    f"\n| **Total** | **{total}** |"   # ➜ NEW
 )
 
 content = re.sub(
