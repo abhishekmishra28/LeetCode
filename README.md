@@ -66,6 +66,7 @@ This helps build patterns instead of memorizing answers.
 | Math | 1 |
 | Design | 2 |
 | Others | 0 |
+| **Total** | **15** |
 
 (I update this table as I go.)
 
