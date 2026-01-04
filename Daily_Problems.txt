@@ -21,3 +21,5 @@ Day 4 (04/01/26) :
                    3. Largest Even Number (LC : 3798)
                    4. Minimum Cost to Make Two Binary Strings Equal (LC : 3800)
                    5. Topological Sort (GFG Practice)
+Day 5 (05/01/26) :
+                   1. Find All Numbers Disappeared in an Array (LC : 448)
