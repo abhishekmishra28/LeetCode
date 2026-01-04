@@ -19,3 +19,4 @@ Day 4 (04/01/26) :
                    1. Shortest Bridge (LC : 934)
                    2. Four Divisors (LC : 1390)
                    3. Largest Even Number (LC : 3798)
+                   4. Minimum Cost to Make Two Binary Strings Equal (LC : 3800)
