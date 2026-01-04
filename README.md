@@ -67,6 +67,7 @@ This helps build patterns instead of memorizing answers.
 | Design | 2 |
 | Others | 0 |
 | **Total** | **17** |
+| **Total** | **17** |
 | **Total** | **16** |
 | **Total** | **16** |
 | **Total** | **15** |
