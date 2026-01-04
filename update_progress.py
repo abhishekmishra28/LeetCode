@@ -9,6 +9,7 @@ categories = {
     "Trees": "Trees",
     "Graphs": "Graphs",
     "Dynamic Programming": "DynamicProgramming",
+    "Greedy Algorithm" : "GreedyAlgorithm",
     "Math": "Math",
     "Design": "Design",
     "Others": "Others"
