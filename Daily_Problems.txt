@@ -25,3 +25,4 @@ Day 5 (05/01/26) :
                    1. Find All Numbers Disappeared in an Array (LC : 448)
                    2. Maximum Matrix Sum (LC : 1975)
                    3. Replace Elements with Greatest Element on Right Side (LC : 1299)
+                   4. Two Furthest Houses With Different Colors (LC : 2078)
