@@ -27,3 +27,5 @@ Day 5 (05/01/26) :
                    3. Replace Elements with Greatest Element on Right Side (LC : 1299)
                    4. Two Furthest Houses With Different Colors (LC : 2078)
                    5. Maximum Difference Between Increasing Elements (LC : 2016)
+Day 6 (06/01/26) :
+                   1. Maximum Level Sum of a Binary Tree (LC : 1161)
