@@ -61,12 +61,12 @@ This helps build patterns instead of memorizing answers.
 | Linked List | 0 |
 | Trees | 2 |
 | Graphs | 7 |
-| Dynamic Programming | 2 |
+| Dynamic Programming | 3 |
 | Greedy Algorithm | 2 |
 | Math | 1 |
 | Design | 2 |
 | Others | 0 |
-| **Total** | **24** |
+| **Total** | **25** |
 
 (I update this table as I go.)
 
