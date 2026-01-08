@@ -33,4 +33,4 @@ Day 7 (07/01/26) :
                    1. Maximum Product of Splitted Binary Tree (LC : 1339)
 Day 8 (08/01/26) : 
                    1. Slowest Key (LC : 1629)
-                   2. 
+                   2. Max Dot Product of Two Subsequences (LC : 1458)
