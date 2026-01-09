@@ -40,3 +40,4 @@ Day 9 (09/01/26) :
                    3. Contains Duplicate II (LC : 219)
                    4. Intersection of Two Arrays (LC : 349)
                    5. Intersection of Two Arrays II (LC : 350)
+                   6. Jewels and Stones (LC : 771)
