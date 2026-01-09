@@ -36,4 +36,5 @@ Day 8 (08/01/26) :
                    2. Max Dot Product of Two Subsequences (LC : 1458)
 Day 9 (09/01/26) :
                    1. Smallest Subtree with all the Deepest Nodes (LC : 865)
+                   2. Contains Duplicate (LC : 217)
                   
