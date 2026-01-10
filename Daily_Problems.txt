@@ -46,3 +46,4 @@ Day 9 (09/01/26) :
 Day 10 (10/01/26) :
                    1. Most Frequent Even Element (LC : 2404)
                    2. Valid Anagram (LC : 242)
+                   3. Check if the Sentence Is Pangram (LC : 1832)
