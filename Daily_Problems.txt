@@ -43,3 +43,5 @@ Day 9 (09/01/26) :
                    6. Jewels and Stones (LC : 771)
                    7. Unique Number of Occurrences (LC : 1207)
                    8. Majority Element (lC : 169)
+Day 10 (10/01/26) :
+                   1. Most Frequent Even Element (LC : 2404)
