@@ -50,3 +50,5 @@ Day 10 (10/01/26) :
                    4. Find the Difference (LC : 389)
                    5. Minimum ASCII Delete Sum for Two Strings (LC : 712)
                    6. Ransom Note (LC : 383)
+Day 11 (11/01/26) :
+                   1. Count Residue Prefixes (LC : 3803)
