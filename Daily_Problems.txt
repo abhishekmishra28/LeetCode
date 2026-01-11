@@ -49,3 +49,4 @@ Day 10 (10/01/26) :
                    3. Check if the Sentence Is Pangram (LC : 1832)
                    4. Find the Difference (LC : 389)
                    5. Minimum ASCII Delete Sum for Two Strings (LC : 712)
+                   6. Ransom Note (LC : 383)
