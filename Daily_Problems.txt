@@ -54,3 +54,5 @@ Day 11 (11/01/26) :
                    1. Count Residue Prefixes (LC : 3803)
                    2. Number of Centered Subarrays (LC : 3808)
                    3. Count Caesar Cipher Pairs (LC : 3805)
+Day 12 (12/01/26) :
+                   1. Minimum Time Visiting All Points (LC : 1266)
