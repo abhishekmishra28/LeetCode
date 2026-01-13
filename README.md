@@ -59,14 +59,14 @@ This helps build patterns instead of memorizing answers.
 | Arrays | 16 |
 | Strings | 8 |
 | Linked List | 0 |
-| Trees | 4 |
+| Trees | 5 |
 | Graphs | 7 |
 | Dynamic Programming | 3 |
 | Greedy Algorithm | 3 |
 | Math | 1 |
 | Design | 2 |
 | Others | 0 |
-| **Total** | **44** |
+| **Total** | **45** |
 
 (I update this table as I go.)
 
