@@ -56,3 +56,5 @@ Day 11 (11/01/26) :
                    3. Count Caesar Cipher Pairs (LC : 3805)
 Day 12 (12/01/26) :
                    1. Minimum Time Visiting All Points (LC : 1266)
+Day 13 (13/01/26) :
+                   1. Maximum Depth of Binary Tree (LC : 104)
