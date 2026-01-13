@@ -58,3 +58,4 @@ Day 12 (12/01/26) :
                    1. Minimum Time Visiting All Points (LC : 1266)
 Day 13 (13/01/26) :
                    1. Maximum Depth of Binary Tree (LC : 104)
+                   2. Binary Tree Level Order Traversal (LC : 102)
