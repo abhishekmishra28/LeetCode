@@ -56,7 +56,7 @@ This helps build patterns instead of memorizing answers.
 
 | Category | Solved |
 |----------|--------|
-| Arrays | 19 |
+| Arrays | 20 |
 | Strings | 8 |
 | Linked List | 0 |
 | Trees | 8 |
@@ -66,7 +66,7 @@ This helps build patterns instead of memorizing answers.
 | Math | 1 |
 | Design | 2 |
 | Others | 0 |
-| **Total** | **51** |
+| **Total** | **52** |
 
 (I update this table as I go.)
 
