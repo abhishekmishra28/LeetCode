@@ -64,9 +64,9 @@ This helps build patterns instead of memorizing answers.
 | Dynamic Programming | 3 |
 | Greedy Algorithm | 3 |
 | Math | 1 |
-| Design | 2 |
+| Design | 3 |
 | Others | 0 |
-| **Total** | **53** |
+| **Total** | **54** |
 
 (I update this table as I go.)
 
