@@ -71,3 +71,6 @@ Day 16 (16/01/26) :
 Day 17 (17/01/26) :
                    1. Design Auction System (LC : 3815)
                    2. Vowel-Consonant Score (LC : 3813)
+Day 18 (18/01/26) :
+                   1. Path Sum (LC : 112)
+                   2.
