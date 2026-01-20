@@ -73,4 +73,5 @@ Day 17 (17/01/26) :
                    2. Vowel-Consonant Score (LC : 3813)
 Day 18 (18/01/26) :
                    1. Path Sum (LC : 112)
-                   2.
+Day 19 (19/01/26) :
+                   1. Construct the Minimum Bitwise Array I ( LC : 3314)
