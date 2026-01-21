@@ -65,6 +65,7 @@ This helps build patterns instead of memorizing answers.
 | Greedy Algorithm | 3 |
 | Math | 1 |
 | Design | 3 |
+| Placements | 0 |
 | Others | 0 |
 | **Total** | **58** |
 
