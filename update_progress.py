@@ -12,6 +12,7 @@ categories = {
     "Greedy Algorithm": "GreedyAlgorithm",
     "Math": "Math",
     "Design": "Design",
+    "Placements": "Placements",
     "Others": "Others"
 }
 
