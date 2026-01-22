@@ -3,7 +3,7 @@ Day 1 :
         2. 4 Sum (LC : 18)
         3. Two Sum II - Input Array Is Sorted (LC : 167)
         4. 3Sum Closest (LC : 16)
-        5.
+        5. Number of Arithmetic Triplets (LC : 2367)
 
 Day 2 : 
         1. 
