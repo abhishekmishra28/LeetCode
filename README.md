@@ -65,9 +65,9 @@ This helps build patterns instead of memorizing answers.
 | Greedy Algorithm | 3 |
 | Math | 1 |
 | Design | 3 |
-| Placements | 4 |
+| Placements | 5 |
 | Others | 0 |
-| **Total** | **62** |
+| **Total** | **63** |
 
 (I update this table as I go.)
 
