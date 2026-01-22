@@ -82,3 +82,5 @@ Day 20 (20/01/26) :
 Day 21 (21/01/26) :
                    1. Binary Tree Zigzag Level Order Traversal (LC : 103)
                    2. Same Tree (LC : 100)
+Day 22 (22/01/26) :
+                   1. 3Sum (LC : 15)
