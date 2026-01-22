@@ -79,3 +79,6 @@ Day 20 (20/01/26) :
                    1. Two Sum (LC : 1)
                    2. Construct the Minimum Bitwise Array II ( LC : 3315)
                    3. First Letter to Appear Twice (LC : 2351)
+Day 21 (21/01/26) :
+                   1. Binary Tree Zigzag Level Order Traversal (LC : 103)
+                   2. Same Tree (LC : 100)
