@@ -88,3 +88,6 @@ Day 22 (22/01/26) :
                    3. Two Sum II - Input Array Is Sorted (LC : 167)
                    4. 3Sum Closest (LC : 16)
                    5. Number of Arithmetic Triplets (LC : 2367)
+Day 23 (23/01/26) :
+                   1. Symmetric Tree (LC : 101)
+                   2. Best Time to Buy and Sell Stock (LC : 121)
