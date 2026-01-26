@@ -62,12 +62,12 @@ This helps build patterns instead of memorizing answers.
 | Trees | 12 |
 | Graphs | 7 |
 | Dynamic Programming | 3 |
-| Greedy Algorithm | 4 |
+| Greedy Algorithm | 5 |
 | Math | 1 |
 | Design | 3 |
 | Placements | 5 |
 | Others | 0 |
-| **Total** | **68** |
+| **Total** | **69** |
 
 (I update this table as I go.)
 
