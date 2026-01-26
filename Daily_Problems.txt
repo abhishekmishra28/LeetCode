@@ -97,3 +97,5 @@ Day 25 (26/01/26) :
                    1. Minimum Prefix Removal to Make Array Strictly Increasing (LC : 3818)
                    2. Rotate Non Negative Elements (LC : 3819)
                    3. Minimum Difference Between Highest and Lowest of K Scores (LC : 1984)
+Day 26 (27/01/26) :
+                   1. 
