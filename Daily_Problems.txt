@@ -99,3 +99,4 @@ Day 25 (26/01/26) :
                    3. Minimum Difference Between Highest and Lowest of K Scores (LC : 1984)
 Day 26 (27/01/26) :
                    1. Rotate Array (LC : 189)
+                   2. Minimum Absolute Difference (LC : 1200)
