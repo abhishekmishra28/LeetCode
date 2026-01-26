@@ -95,3 +95,4 @@ Day 24 (24/01/26) :
                    1. Minimize Maximum Pair Sum in Array (LC : 1877)
 Day 25 (26/01/26) :
                    1. Minimum Prefix Removal to Make Array Strictly Increasing (LC : 3818)
+                   2. Rotate Non Negative Elements (LC : 3819)
