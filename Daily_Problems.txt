@@ -93,11 +93,14 @@ Day 23 (23/01/26) :
                    2. Best Time to Buy and Sell Stock (LC : 121)
 Day 24 (24/01/26) :
                    1. Minimize Maximum Pair Sum in Array (LC : 1877)
-Day 25 (26/01/26) :
+Day 25 (25/01/26) :
                    1. Minimum Prefix Removal to Make Array Strictly Increasing (LC : 3818)
                    2. Rotate Non Negative Elements (LC : 3819)
                    3. Minimum Difference Between Highest and Lowest of K Scores (LC : 1984)
-Day 26 (27/01/26) :
+Day 26 (26/01/26) :
                    1. Rotate Array (LC : 189)
                    2. Minimum Absolute Difference (LC : 1200)
                    3. Maximum Distance in Arrays (LC : 624)
+Day 27 (27/01/26) :
+                   1. Assign Cookies (LC : 455)
+                   2. Sort Array by Increasing Frequency (LC : 1636)
