@@ -109,3 +109,4 @@ Day 28 (28/01/26) :
                    1. Range Sum Query – Immutable (LC : 303)
                    2. Find Pivot Index (LC : 724)
                    3. Find Smallest Letter Greater Than Target (LC : 744)
+                   4. Matrix Diagonal Sum (LC : 1572)
