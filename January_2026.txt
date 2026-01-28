@@ -107,3 +107,4 @@ Day 27 (27/01/26) :
                    3. Lemonade Change (LC : 860)
 Day 28 (28/01/26) :
                    1. Range Sum Query – Immutable (LC : 303)
+                   2. Find Pivot Index (LC : 724)
