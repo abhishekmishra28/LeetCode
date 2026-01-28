@@ -105,3 +105,5 @@ Day 27 (27/01/26) :
                    1. Assign Cookies (LC : 455)
                    2. Sort Array by Increasing Frequency (LC : 1636)
                    3. Lemonade Change (LC : 860)
+Day 28 (28/01/26) :
+                   1. Range Sum Query – Immutable (LC : 303)
