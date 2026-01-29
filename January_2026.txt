@@ -117,3 +117,4 @@ Day 29 (29/01/26) :
                    4. Construct Binary Tree from Preorder and Inorder Traversal (LC : 105)
                    5. Lowest Common Ancestor of a Binary Tree (LC : 236)
                    6. Check Completeness of a Binary Tree (LC : 958)
+                   7. Minimum Operations to Make the Array Increasing (LC : 1827)
