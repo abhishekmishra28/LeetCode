@@ -112,3 +112,4 @@ Day 28 (28/01/26) :
                    4. Matrix Diagonal Sum (LC : 1572)
 Day 29 (29/01/26) :                   
                    1. Number of Students Doing Homework at a Given Time (LC : 1450)
+                   2. Subarray Sum Equals K (LC : 560)
