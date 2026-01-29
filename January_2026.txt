@@ -115,4 +115,5 @@ Day 29 (29/01/26) :
                    2. Subarray Sum Equals K (LC : 560)
                    3. Binary Tree Right Side View (LC : 199)
                    4. Construct Binary Tree from Preorder and Inorder Traversal (LC : 105)
-                   5. Lowest Common Ancestor of a Binary Tree (236)
+                   5. Lowest Common Ancestor of a Binary Tree (LC : 236)
+                   6. Check Completeness of a Binary Tree (LC : 958)
