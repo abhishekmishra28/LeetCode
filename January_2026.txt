@@ -110,3 +110,5 @@ Day 28 (28/01/26) :
                    2. Find Pivot Index (LC : 724)
                    3. Find Smallest Letter Greater Than Target (LC : 744)
                    4. Matrix Diagonal Sum (LC : 1572)
+Day 29 (29/01/26) :                   
+                   1. Number of Students Doing Homework at a Given Time (LC : 1450)
