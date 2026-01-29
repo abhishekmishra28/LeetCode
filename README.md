@@ -59,7 +59,7 @@ This helps build patterns instead of memorizing answers.
 | Arrays | 37 |
 | Strings | 10 |
 | Linked List | 0 |
-| Trees | 15 |
+| Trees | 16 |
 | Graphs | 8 |
 | Dynamic Programming | 3 |
 | Greedy Algorithm | 7 |
@@ -67,7 +67,7 @@ This helps build patterns instead of memorizing answers.
 | Design | 3 |
 | Placements | 5 |
 | Others | 0 |
-| **Total** | **89** |
+| **Total** | **90** |
 
 (I update this table as I go.)
 
