@@ -120,3 +120,4 @@ Day 29 (29/01/26) :
                    7. Minimum Operations to Make the Array Increasing (LC : 1827)
 Day 30 (30/01/26) :
                    1. Delete Nodes And Return Forest (LC : 1110)
+                   2. Linked List Cycle II (LC : 142)
