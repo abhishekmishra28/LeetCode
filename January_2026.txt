@@ -118,3 +118,5 @@ Day 29 (29/01/26) :
                    5. Lowest Common Ancestor of a Binary Tree (LC : 236)
                    6. Check Completeness of a Binary Tree (LC : 958)
                    7. Minimum Operations to Make the Array Increasing (LC : 1827)
+Day 30 (30/01/26) :
+                   1. Delete Nodes And Return Forest (LC : 1110)
