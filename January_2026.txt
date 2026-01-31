@@ -124,3 +124,4 @@ Day 30 (30/01/26) :
                    3. Binary Tree Pruning (LC : 814)
 Day 31 (31/01/26) :
                    1. Palindrome Linked List (LC : 234)
+                   2. Odd Even Linked List (LC : 328)
