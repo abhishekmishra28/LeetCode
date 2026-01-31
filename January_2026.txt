@@ -128,3 +128,4 @@ Day 31 (31/01/26) :
                    3. Even Odd Tree (LC : 1609)
                    4. Split Linked List in Parts (LC : 725)
                    5. Path Sum II (LC : 113)
+                   6. Maximum Difference Between Node and Ancestor (LC : 1026)
