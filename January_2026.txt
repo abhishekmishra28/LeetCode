@@ -125,3 +125,4 @@ Day 30 (30/01/26) :
 Day 31 (31/01/26) :
                    1. Palindrome Linked List (LC : 234)
                    2. Odd Even Linked List (LC : 328)
+                   3. Even Odd Tree (LC : 1609)
