@@ -2,3 +2,5 @@ Day 1 (01/02/2026) :
                     1. Minimum Cost to Make Array Equal (LC : 2974)
 Day 2 (02/02/2026) :
                     1. 
+Day 4 (04/02/2026) :
+                    1. 701. Insert into a Binary Search Tree (LC : 701)
