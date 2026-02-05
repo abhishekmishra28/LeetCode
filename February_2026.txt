@@ -15,3 +15,5 @@ Day 4 :
         5. Number of Islands (LC : 200)
         6. Number of Provinces (LC : 547)
         7. Delete Node in a BST (LC : 450)
+Day 5 :
+        1. Second Minimum Node In a Binary Tree (LC : 671)
