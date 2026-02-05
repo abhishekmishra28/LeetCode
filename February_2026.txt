@@ -18,3 +18,4 @@ Day 4 :
 Day 5 :
         1. Second Minimum Node In a Binary Tree (LC : 671)
         2. Binary Tree Inorder Traversal (LC : 94)
+        3. Third Maximum Number (LC : 414)
