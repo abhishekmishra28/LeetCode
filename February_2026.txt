@@ -20,3 +20,4 @@ Day 5 :
         2. Binary Tree Inorder Traversal (LC : 94)
         3. Third Maximum Number (LC : 414)
         4. Find the Kth Largest Integer in the Array (LC : 1985)
+        5. Kth Smallest Element in a BST (LC : 230)
