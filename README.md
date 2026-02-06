@@ -66,10 +66,10 @@ This helps build patterns instead of memorizing answers.
 | Stack | 7 |
 | Queues | 1 |
 | Math | 1 |
-| Design | 3 |
+| Design | 4 |
 | Placements | 5 |
 | Others | 0 |
-| **Total** | **118** |
+| **Total** | **119** |
 
 (I update this table as I go.)
 
