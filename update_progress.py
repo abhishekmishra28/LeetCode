@@ -10,6 +10,8 @@ categories = {
     "Graphs": "Graphs",
     "Dynamic Programming": "DynamicProgramming",
     "Greedy Algorithm": "GreedyAlgorithm",
+    "Stack": "Stack",
+    "Queues": "Queues",
     "Math": "Math",
     "Design": "Design",
     "Placements": "Placements",
