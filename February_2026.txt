@@ -22,3 +22,6 @@ Day 5 :
         4. Find the Kth Largest Integer in the Array (LC : 1985)
         5. Kth Smallest Element in a BST (LC : 230)
         6. Validate Binary Search Tree (LC : 98)
+Day 6 : 
+        1. Implement Queue using Stacks (LC : 232)
+        2. Implement Stack using Queues (LC : 225)
