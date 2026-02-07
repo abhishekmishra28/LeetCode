@@ -29,3 +29,5 @@ Day 6 :
         4. Next Greater Element II (LC : 503)
         5. Design Circular Queue (LC : 622)
         6. Design Circular Deque (LC : 641)
+Day 7 :
+        1. Resting Whole Day...
