@@ -7,6 +7,7 @@ categories = {
     "Strings": "Strings",
     "Linked List": "Linked List",
     "Trees": "Trees",
+    "BST": "BST",
     "Graphs": "Graphs",
     "Dynamic Programming": "DynamicProgramming",
     "Greedy Algorithm": "GreedyAlgorithm",
