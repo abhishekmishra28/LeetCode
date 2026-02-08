@@ -37,3 +37,5 @@ Day 7 :
 Day 8 :
         1. Fibonacci Number (LC : 509)
         2. Power of Two (LC : 231)
+        3. Power of Four (LC : 342)
+        4. Power of Three (LC : 326)
