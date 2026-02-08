@@ -36,3 +36,4 @@ Day 7 :
         4. Two Sum IV - Input is a BST (LC : 653)
 Day 8 :
         1. Fibonacci Number (LC : 509)
+        2. Power of Two (LC : 231)
