@@ -40,3 +40,4 @@ Day 8 :
         3. Power of Four (LC : 342)
         4. Power of Three (LC : 326)
         5. Swapping Nodes in a Linked List (LC : 1721)
+        6. Remove Nodes From Linked List (LC : 2487)
