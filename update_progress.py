@@ -10,6 +10,7 @@ categories = {
     "BST": "BST",
     "Graphs": "Graphs",
     "Dynamic Programming": "DynamicProgramming",
+    "Recursion": "Recursion",
     "Greedy Algorithm": "GreedyAlgorithm",
     "Stack": "Stack",
     "Queues": "Queues",
