@@ -41,3 +41,5 @@ Day 8 :
         4. Power of Three (LC : 326)
         5. Swapping Nodes in a Linked List (LC : 1721)
         6. Remove Nodes From Linked List (LC : 2487)
+Day 9 :
+        1. Balance a Binary Search Tree (LC : 1382)
