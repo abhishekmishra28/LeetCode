@@ -65,13 +65,13 @@ This helps build patterns instead of memorizing answers.
 | Dynamic Programming | 4 |
 | Recursion | 5 |
 | Greedy Algorithm | 10 |
-| Stack | 7 |
+| Stack | 8 |
 | Queues | 1 |
 | Math | 1 |
 | Design | 5 |
 | Placements | 5 |
 | Others | 0 |
-| **Total** | **140** |
+| **Total** | **141** |
 
 (I update this table as I go.)
 
