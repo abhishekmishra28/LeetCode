@@ -46,3 +46,5 @@ Day 9 :
         2. Remove Nth Node From End of List (LC : 19)
         3. Climbing Stairs (LC : 70)
         4. Count Good Numbers (LC : 1922)
+Day 10 :
+        1. Longest Balanced Subarray I (LC : 3719)
