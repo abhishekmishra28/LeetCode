@@ -6,7 +6,7 @@
  * You are given two strings:
  * - s      → a parentheses string consisting of '(' and ')'
  * - locked → a binary string where:
- *            '1նելով' means the character at that index is locked (cannot be changed)
+ *            '1' means the character at that index is locked (cannot be changed)
  *            '0' means the character is free (can be changed to '(' or ')')
  *
  * Return true if you can make the string s a valid parentheses string.
