@@ -48,3 +48,4 @@ Day 9 :
         4. Count Good Numbers (LC : 1922)
 Day 10 :
         1. Longest Balanced Subarray I (LC : 3719)
+        2. Check if a Parentheses String Can Be Valid (LC : 2116)
