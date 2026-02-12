@@ -1,139 +1,130 @@
 /*
- * Problem: 39. Combination Sum
+ * Problem: Combination Sum (Unbounded Version – Pick / Not Pick Style)
  *
  * ------------------------------------------------------------
  * STATEMENT:
- * Given an array of distinct integers `candidates`
- * and an integer `target`,
- * return all unique combinations of candidates where
- * the chosen numbers sum to `target`.
+ * Given an array of integers nums and an integer k (target),
+ * return all possible combinations where:
  *
- * You may use the SAME element unlimited times.
+ * - The chosen numbers sum to k
+ * - Each number may be used unlimited times
  *
  * The solution set must not contain duplicate combinations.
  *
  * ------------------------------------------------------------
- * APPROACH: Backtracking (Pick / Not-Pick Strategy)
+ * APPROACH: Backtracking (Pick / Skip Strategy)
  *
  * ------------------------------------------------------------
  * KEY OBSERVATIONS:
  *
- * 1️⃣ We can use the same element multiple times.
+ * 1️⃣ We can reuse the same element multiple times.
  *
- * 2️⃣ Order does NOT matter in combinations.
- *    [2,3] and [3,2] are the same.
+ * 2️⃣ At every index i, we have TWO choices:
+ *    - Take nums[i]
+ *    - Skip nums[i]
  *
- * 3️⃣ To avoid duplicates:
- *    - We never go backwards.
- *    - Once we move to next index, we don't revisit previous ones.
+ * 3️⃣ If we take the element:
+ *    - Reduce target by nums[i]
+ *    - Stay at same index (since reuse allowed)
+ *
+ * 4️⃣ If we skip:
+ *    - Move to next index
  *
  * ------------------------------------------------------------
  * STRATEGY:
  *
- * At index i, we have TWO choices:
+ * Recursive function:
  *
- * 1️⃣ PICK the element:
- *    - Only if candidates[i] <= target
- *    - Reduce target
- *    - Stay at same index (since unlimited reuse allowed)
+ * combSum(i, nums, k, comb, ans)
  *
- * 2️⃣ NOT PICK:
- *    - Move to next index (i + 1)
- *
- * ------------------------------------------------------------
- * RECURSIVE FUNCTION PARAMETERS:
- *
- * findCombination(i, target, candidates, ans, ds)
- *
- * i           → current index
- * target      → remaining sum
- * candidates  → input array
- * ans         → stores valid combinations
- * ds          → current combination
+ * i    → current index
+ * k    → remaining target
+ * comb → current combination
+ * ans  → stores final results
  *
  * ------------------------------------------------------------
- * BASE CASE:
+ * BASE CASES:
  *
- * If i == candidates.size():
- *    - If target == 0 → valid combination → store
- *    - Else → discard
+ * 1️⃣ If k == 0:
+ *    → Valid combination found
+ *    → Add to answer
+ *
+ * 2️⃣ If i == nums.size() OR k < 0:
+ *    → No valid solution from here
+ *    → Return
+ *
+ * ------------------------------------------------------------
+ * RECURSION TREE IDEA:
+ *
+ * At each step:
+ *
+ *         (i, k)
+ *        /       \
+ *   Take nums[i]   Skip nums[i]
+ *     (i, k-x)      (i+1, k)
  *
  * ------------------------------------------------------------
  * DRY RUN EXAMPLE:
  *
- * candidates = [2,3,6,7]
- * target = 7
+ * nums = [2,3]
+ * k = 6
  *
  * Possible combinations:
- * [2,2,3]
- * [7]
+ * [2,2,2]
+ * [3,3]
  *
  * ------------------------------------------------------------
  * TIME & SPACE COMPLEXITY:
  *
  * Time Complexity:
  * - Exponential (backtracking)
- * - Roughly O(2^n) in worst case
  *
  * Space Complexity:
- * - O(target) recursion depth
- * - O(k) for storing current combination
+ * - O(k) recursion depth (in worst case)
+ * - O(k) for current combination storage
  *
  * ------------------------------------------------------------
  * INTERVIEW NOTES:
  *
- * - Classic backtracking problem
- * - Key trick: stay at same index after picking
- * - Very common variation in coding interviews
+ * - Classic pick / not-pick recursion pattern
+ * - Staying at same index enables unlimited reuse
+ * - Often asked as base version before introducing duplicates
  */
 
 class Solution {
-public:
-    void findCombination(int i,
-                         int target,
-                         vector<int>& candidates,
-                         vector<vector<int>>& ans,
-                         vector<int>& ds) {
+private:
+    void combSum(int i,
+                 vector<int>& nums,
+                 int k,
+                 vector<int>& comb,
+                 vector<vector<int>>& ans) {
 
-        // Base case: reached end of array
-        if (i == candidates.size()) {
-            if (target == 0) {
-                ans.push_back(ds);
-            }
+        // Valid combination found
+        if (k == 0) {
+            ans.push_back(comb);
             return;
         }
 
-        // PICK the current element (if possible)
-        if (candidates[i] <= target) {
+        // Out of bounds or negative target
+        if (i == nums.size() || k < 0)
+            return;
 
-            ds.push_back(candidates[i]);
+        // TAKE current element (stay at same index)
+        comb.push_back(nums[i]);
+        combSum(i, nums, k - nums[i], comb, ans);
+        comb.pop_back();
 
-            // Stay at same index (unlimited usage allowed)
-            findCombination(i,
-                            target - candidates[i],
-                            candidates,
-                            ans,
-                            ds);
-
-            // Backtrack
-            ds.pop_back();
-        }
-
-        // NOT PICK the current element
-        findCombination(i + 1,
-                        target,
-                        candidates,
-                        ans,
-                        ds);
+        // SKIP current element
+        combSum(i + 1, nums, k, comb, ans);
     }
 
-    vector<vector<int>> combinationSum(vector<int>& candidates,
-                                       int target) {
+public:
+    vector<vector<int>> combinationSum(vector<int>& nums, int k) {
 
         vector<vector<int>> ans;
-        vector<int> ds;
+        vector<int> comb;
 
-        findCombination(0, target, candidates, ans, ds);
+        combSum(0, nums, k, comb, ans);
 
         return ans;
     }
