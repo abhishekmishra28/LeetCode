@@ -3,81 +3,79 @@
  *
  * ------------------------------------------------------------
  * STATEMENT:
- * Given a collection of candidate numbers (candidates)
- * and a target number (target),
- * return all unique combinations in candidates where
- * the candidate numbers sum to target.
+ * Given an array nums (may contain duplicates) and an integer target,
+ * return all unique combinations where:
  *
- * Each number may be used AT MOST ONCE.
- *
- * The solution set must NOT contain duplicate combinations.
+ * - Each number is used AT MOST once.
+ * - The chosen numbers sum to target.
+ * - The solution set must not contain duplicate combinations.
  *
  * ------------------------------------------------------------
- * APPROACH: Backtracking + Sorting + Pruning
+ * APPROACH: Backtracking + Sorting + Duplicate Skipping
  *
  * ------------------------------------------------------------
  * KEY DIFFERENCE FROM Combination Sum I:
  *
- * 1️⃣ Each element can be used ONLY ONCE.
+ * 1️⃣ Each element can be used only once.
  * 2️⃣ Input may contain duplicates.
- * 3️⃣ We must avoid duplicate combinations.
+ * 3️⃣ We must carefully skip duplicates to avoid repeated combinations.
  *
  * ------------------------------------------------------------
  * KEY OBSERVATIONS:
  *
- * 1️⃣ Sorting is mandatory:
- *    - Groups duplicates together
- *    - Enables skipping duplicates
- *    - Allows early pruning
+ * 1️⃣ Sorting is mandatory.
+ *    - Groups duplicates together.
+ *    - Enables early pruning.
+ *    - Makes duplicate skipping easy.
  *
- * 2️⃣ Duplicate Skipping Logic:
+ * 2️⃣ Duplicate Skipping Condition:
  *
- *    if (i > start && candidates[i] == candidates[i - 1])
+ *    if (i > idx && nums[i] == nums[i - 1])
  *        continue;
  *
  *    Meaning:
- *    - If same number appears again at same recursion level,
- *      skip it to avoid duplicate combinations.
+ *    - If same number appears again at the same recursion level,
+ *      skip it to prevent duplicate combinations.
  *
  * 3️⃣ Early Pruning:
  *
- *    if (candidates[i] > target)
+ *    if (nums[i] > target)
  *        break;
  *
- *    Since array is sorted, no need to check further.
+ *    Since array is sorted, further elements will also exceed target.
  *
  * ------------------------------------------------------------
  * STRATEGY:
  *
- * - Sort the array
- * - Use backtracking
- * - At each step:
- *   → Pick current element
- *   → Move to next index (i + 1) since reuse not allowed
- *   → Reduce target
+ * backtrack(idx, nums, target, curr, result)
  *
- * ------------------------------------------------------------
- * RECURSIVE FUNCTION PARAMETERS:
- *
- * findCombination(start, target, candidates, ans, ds)
- *
- * start      → index from where selection is allowed
- * target     → remaining sum
- * candidates → sorted input array
- * ans        → stores valid combinations
- * ds         → current combination
+ * idx    → starting index for selection
+ * target → remaining sum
+ * curr   → current combination
+ * result → stores valid combinations
  *
  * ------------------------------------------------------------
  * BASE CASE:
  *
  * If target == 0:
- * → Valid combination formed
- * → Add to answer
+ * → Valid combination found
+ * → Add to result
+ *
+ * ------------------------------------------------------------
+ * RECURSION FLOW:
+ *
+ * For each index i from idx to n-1:
+ *
+ *   1️⃣ Skip duplicates at same level
+ *   2️⃣ Stop if nums[i] > target
+ *   3️⃣ Choose nums[i]
+ *   4️⃣ Recurse with i + 1 (since reuse not allowed)
+ *   5️⃣ Backtrack
  *
  * ------------------------------------------------------------
  * DRY RUN EXAMPLE:
  *
- * candidates = [10,1,2,7,6,1,5]
+ * nums = [10,1,2,7,6,1,5]
  * target = 8
  *
  * After sorting:
@@ -93,71 +91,72 @@
  * TIME & SPACE COMPLEXITY:
  *
  * Time Complexity:
- * - Exponential in worst case (backtracking)
+ * - Exponential (backtracking)
  *
  * Space Complexity:
- * - O(target) recursion depth
- * - O(k) for storing combination
+ * - O(target) recursion depth (worst case)
+ * - O(k) for storing current combination
  *
  * ------------------------------------------------------------
  * INTERVIEW NOTES:
  *
- * - Sorting + duplicate skipping is the key idea
- * - Early pruning improves performance significantly
- * - Very common interview problem
+ * - Sorting + duplicate skipping is the core trick
+ * - Early pruning significantly reduces recursion
+ * - Very common backtracking interview problem
  */
 
 class Solution {
-public:
-    void findCombination(int start,
-                         int target,
-                         vector<int>& candidates,
-                         vector<vector<int>>& ans,
-                         vector<int>& ds) {
+private:
+    void backtrack(int idx,
+                   vector<int>& nums,
+                   int target,
+                   vector<int>& curr,
+                   vector<vector<int>>& result) {
 
-        // Base case: valid combination found
+        // Valid combination found
         if (target == 0) {
-            ans.push_back(ds);
+            result.push_back(curr);
             return;
         }
 
-        // Try picking elements starting from 'start'
-        for (int i = start; i < candidates.size(); i++) {
+        // Explore choices starting from idx
+        for (int i = idx; i < nums.size(); i++) {
 
             // Skip duplicates at the same recursion level
-            if (i > start && candidates[i] == candidates[i - 1])
+            if (i > idx && nums[i] == nums[i - 1])
                 continue;
 
-            // Early pruning: stop if current element exceeds target
-            if (candidates[i] > target)
+            // Early pruning
+            if (nums[i] > target)
                 break;
 
             // Choose current element
-            ds.push_back(candidates[i]);
+            curr.push_back(nums[i]);
 
-            // Move to next index (each element can be used once)
-            findCombination(i + 1,
-                            target - candidates[i],
-                            candidates,
-                            ans,
-                            ds);
+            // Move to next index (no reuse allowed)
+            backtrack(i + 1,
+                      nums,
+                      target - nums[i],
+                      curr,
+                      result);
 
             // Backtrack
-            ds.pop_back();
+            curr.pop_back();
         }
     }
 
-    vector<vector<int>> combinationSum2(vector<int>& candidates,
+public:
+    vector<vector<int>> combinationSum2(vector<int>& nums,
                                         int target) {
 
         // Sort to handle duplicates and pruning
-        sort(candidates.begin(), candidates.end());
+        sort(nums.begin(), nums.end());
 
-        vector<vector<int>> ans;
-        vector<int> ds;
+        vector<vector<int>> result;
+        vector<int> curr;
 
-        findCombination(0, target, candidates, ans, ds);
+        backtrack(0, nums, target, curr, result);
 
-        return ans;
+        return result;
     }
 };
