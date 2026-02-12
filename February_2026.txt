@@ -58,3 +58,6 @@ Day 11 :
         2. Permutations (LC : 46)
         3. Permutations II (LC : 47)
         4. Combinations (LC : 77)
+Day 12 :
+        1. Combination Sum (LC : 39)
+        2. Combination Sum II (LC : 40)
