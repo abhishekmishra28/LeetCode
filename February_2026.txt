@@ -63,3 +63,5 @@ Day 12 :
         2. Combination Sum II (LC : 40)
 Day 13 :
         1. Letter Combinations of a Phone Number (LC : 17)
+Day 14 (May Day) :
+        1. Generate Parentheses (LC : 22)
