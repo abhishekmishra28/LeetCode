@@ -70,3 +70,4 @@ Day 14 (May Day) :
 Day 15 :
         1. Add Binary (LC : 67)
         2. N-Queens (LC : 51)
+        3. N-Queens II (LC : 52)
