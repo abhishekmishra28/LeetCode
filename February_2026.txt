@@ -67,3 +67,5 @@ Day 14 (May Day) :
         1. Generate Parentheses (LC : 22)
         2. Minimum Remove to Make Valid Parentheses (LC : 1249)
         3. Word Search (LC : 79)
+Day 15 :
+        1. Add Binary (LC : 67)
