@@ -67,11 +67,11 @@ This helps build patterns instead of memorizing answers.
 | Greedy Algorithm | 10 |
 | Stack | 8 |
 | Queues | 1 |
-| Math | 2 |
+| Math | 3 |
 | Design | 5 |
 | Placements | 5 |
 | Others | 0 |
-| **Total** | **155** |
+| **Total** | **156** |
 
 (I update this table as I go.)
 
