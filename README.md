@@ -68,10 +68,11 @@ This helps build patterns instead of memorizing answers.
 | Stack | 8 |
 | Queues | 1 |
 | Math | 3 |
+| Bit_Manipulation | 1 |
 | Design | 5 |
 | Placements | 5 |
 | Others | 0 |
-| **Total** | **159** |
+| **Total** | **160** |
 
 (I update this table as I go.)
 
