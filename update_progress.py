@@ -15,6 +15,7 @@ categories = {
     "Stack": "Stack",
     "Queues": "Queues",
     "Math": "Math",
+    "Bit_Manipulation": "Bit_Manipulation",
     "Design": "Design",
     "Placements": "Placements",
     "Others": "Others"
