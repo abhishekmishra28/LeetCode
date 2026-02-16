@@ -72,3 +72,5 @@ Day 15 :
         2. N-Queens (LC : 51)
         3. N-Queens II (LC : 52)
         4. Sudoku Solver (LC : 37)
+Day 16 :
+        1. Reverse Bits (LC : 190)
