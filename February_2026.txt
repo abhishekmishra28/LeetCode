@@ -83,3 +83,4 @@ Day 18 :
         3. Roman to Integer (LC : 13)
 Day 19 :
         1. Find if Path Exists in Graph (LC : 1971)
+        2. Find_the_Town_Judge (LC : 997)
