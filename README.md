@@ -61,7 +61,7 @@ This helps build patterns instead of memorizing answers.
 | Linked List | 7 |
 | Trees | 24 |
 | BST | 9 |
-| Graphs | 13 |
+| Graphs | 14 |
 | Dynamic Programming | 5 |
 | Recursion | 18 |
 | Greedy Algorithm | 10 |
@@ -72,7 +72,7 @@ This helps build patterns instead of memorizing answers.
 | Design | 5 |
 | Placements | 5 |
 | Others | 0 |
-| **Total** | **166** |
+| **Total** | **167** |
 
 (I update this table as I go.)
 
