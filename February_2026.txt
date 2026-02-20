@@ -84,3 +84,5 @@ Day 18 :
 Day 19 :
         1. Find if Path Exists in Graph (LC : 1971)
         2. Find_the_Town_Judge (LC : 997)
+Day 20 :
+        1. Course Schedule (LC : 207)
