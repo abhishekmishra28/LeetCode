@@ -86,3 +86,5 @@ Day 19 :
         2. Find_the_Town_Judge (LC : 997)
 Day 20 :
         1. Course Schedule (LC : 207)
+Day 21 :
+        1. Is Graph Bipartite? (LC : 785)
