@@ -59,7 +59,7 @@ This helps build patterns instead of memorizing answers.
 | Arrays | 42 |
 | Strings | 16 |
 | Linked List | 7 |
-| Trees | 24 |
+| Trees | 25 |
 | BST | 9 |
 | Graphs | 17 |
 | Dynamic Programming | 5 |
@@ -72,7 +72,7 @@ This helps build patterns instead of memorizing answers.
 | Design | 5 |
 | Placements | 5 |
 | Others | 0 |
-| **Total** | **171** |
+| **Total** | **172** |
 
 (I update this table as I go.)
 
