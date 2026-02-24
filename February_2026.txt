@@ -94,3 +94,4 @@ Day 23 :
         1. Course Schedule II (LC : 210)
 Day 24 :
         1. Longest Substring Without Repeating Characters (LC : 3)
+        2. Sum of Root To Leaf Binary Numbers (LC : 1022)
