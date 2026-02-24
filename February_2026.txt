@@ -98,3 +98,4 @@ Day 24 :
         3. Longest Palindromic Substring (LC : 5)
         4. Palindromic Substrings (LC : 647)
         5. Group Anagrams (LC : 49)
+        6. String to Integer (atoi) (LC : 8)
