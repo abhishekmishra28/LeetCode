@@ -99,3 +99,5 @@ Day 24 :
         4. Palindromic Substrings (LC : 647)
         5. Group Anagrams (LC : 49)
         6. String to Integer (atoi) (LC : 8)
+Day 25 :
+        1. Reverse Vowels of a String (LC : 345)
