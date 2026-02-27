@@ -103,3 +103,5 @@ Day 25 :
         1. Reverse Vowels of a String (LC : 345)
 Day 26 : 
         1. House Robber (LC : 198)
+Day 27 :
+        1. Sum of Absolute Differences in a Sorted Array (LC : 1685)
