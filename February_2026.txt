@@ -107,3 +107,4 @@ Day 27 :
         1. Sum of Absolute Differences in a Sorted Array (LC : 1685)
 Day 28 :
         1. Maximum Subarray (LC : 53)
+        2. Maximum Average Subarray I (LC : 643)
