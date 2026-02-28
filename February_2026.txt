@@ -105,3 +105,5 @@ Day 26 :
         1. House Robber (LC : 198)
 Day 27 :
         1. Sum of Absolute Differences in a Sorted Array (LC : 1685)
+Day 28 :
+        1. Maximum Subarray (LC : 53)
