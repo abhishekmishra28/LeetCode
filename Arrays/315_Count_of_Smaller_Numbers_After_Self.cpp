@@ -6,8 +6,8 @@
  * Given an integer array nums,
  * return an array answer such that:
  *
- * answer[i] = number of smaller elements
- *             to the right of nums[i].
+ *   answer[i] = number of elements smaller than nums[i]
+ *               that appear to its right.
  *
  * Example:
  * nums = [5,2,6,1]
@@ -16,21 +16,21 @@
  * [2,1,1,0]
  *
  * Explanation:
- * 5 → {2,1} → 2
- * 2 → {1}   → 1
- * 6 → {1}   → 1
- * 1 → {}    → 0
+ * 5 → smaller elements on right: {2,1} → 2
+ * 2 → {1} → 1
+ * 6 → {1} → 1
+ * 1 → {} → 0
  *
  * ------------------------------------------------------------
  * WHY NOT BRUTE FORCE?
  *
- * Brute force:
+ * Brute force approach:
  *   For each element check all elements to the right.
  *
  * Time Complexity:
  *   O(n²)
  *
- * This will TLE for large inputs.
+ * For large n this becomes too slow.
  *
  * ------------------------------------------------------------
  * OPTIMAL APPROACH: Modified Merge Sort
@@ -38,78 +38,65 @@
  * ------------------------------------------------------------
  * CORE IDEA:
  *
- * Similar to inversion count.
+ * Similar to inversion counting.
  *
  * During merge sort:
- *   Left half = earlier elements
- *   Right half = elements appearing later
  *
- * If an element from the right side is placed before
- * a left element during merge,
- * it means that right element is smaller.
+ *   Left half → earlier elements
+ *   Right half → elements appearing later in the array
+ *
+ * If a right element is smaller than a left element,
+ * it contributes to the count of that left element.
  *
  * ------------------------------------------------------------
- * KEY TRICK:
+ * IMPORTANT TRICK:
  *
- * Instead of storing only values,
+ * Instead of storing only numbers,
  * store:
  *
- *     (value, original_index)
+ *      (value, original_index)
  *
- * This allows us to update the answer
- * for the correct position in the original array.
+ * This allows us to update the correct
+ * position in the answer array.
  *
  * ------------------------------------------------------------
  * COUNTING LOGIC:
  *
- * While merging:
+ * When merging:
  *
  * If:
- *     arr[left].first <= arr[right].first
+ *      arr[i].first > arr[j].first
  *
- * Then:
- *     All previously moved right elements
- *     are smaller than arr[left].
+ * Then all elements from j to r are smaller
+ * than arr[i] because the right half is sorted.
  *
  * So:
  *
- *     ans[arr[left].second] += rightCnt
+ *      ans[arr[i].second] += (r - j + 1)
  *
  * ------------------------------------------------------------
- * VARIABLES:
+ * MERGE PROCESS:
  *
- * rightCnt → number of elements from right side
- *            already placed in merged array.
+ * 1️⃣ Compare elements of left and right halves.
  *
- * ------------------------------------------------------------
- * ALGORITHM STEPS:
+ * 2️⃣ If left element is larger:
+ *       update count
  *
- * 1️⃣ Convert nums → pair array:
- *
- *     (value, original_index)
- *
- * 2️⃣ Perform merge sort.
- *
- * 3️⃣ During merge:
- *     track how many right elements moved first.
- *
- * 4️⃣ Update ans array using original index.
+ * 3️⃣ Insert elements into temporary array
+ *    to keep merged portion sorted.
  *
  * ------------------------------------------------------------
  * DRY RUN EXAMPLE:
  *
  * nums = [5,2,6,1]
  *
- * pairs:
- * (5,0), (2,1), (6,2), (1,3)
+ * pairs = (value,index)
  *
- * During merge:
+ * (5,0) (2,1) (6,2) (1,3)
  *
- * 1 moves before 5 → count++
- * 2 moves before 5 → count++
+ * After merge operations:
  *
- * result:
- * [2,1,1,0]
+ * ans = [2,1,1,0]
  *
  * ------------------------------------------------------------
  * TIME & SPACE COMPLEXITY:
@@ -123,11 +110,12 @@
  * ------------------------------------------------------------
  * INTERVIEW NOTES:
  *
- * - Classic "count smaller to right" problem.
- * - Uses merge sort counting pattern.
- * - Same idea used in:
- *     Reverse Pairs
- *     Inversion Count
+ * This problem is closely related to:
+ *
+ *   • Inversion Count
+ *   • Reverse Pairs
+ *
+ * All three use the same modified merge sort technique.
  */
 
 class Solution {
@@ -135,52 +123,41 @@ private:
 
     void merge(vector<pair<int,int>> &arr,
                int l, int m, int r,
-               vector<int> &ans){
+               vector<int> &ans) {
 
-        vector<pair<int,int>> temp;
+        vector<pair<int,int>> temp(r - l + 1);
 
-        int left = l;
-        int right = m + 1;
+        int i = l;
+        int j = m + 1;
+        int k = 0;
 
-        int rightCnt = 0;
+        while(i <= m && j <= r) {
 
-        while(left <= m && right <= r){
+            if(arr[i].first <= arr[j].first) {
 
-            if(arr[left].first <= arr[right].first){
-
-                ans[arr[left].second] += rightCnt;
-
-                temp.push_back(arr[left++]);
+                temp[k++] = arr[j++];
             }
-            else{
+            else {
 
-                rightCnt++;
+                ans[arr[i].second] += (r - j + 1);
 
-                temp.push_back(arr[right++]);
+                temp[k++] = arr[i++];
             }
         }
 
-        while(left <= m){
+        while(i <= m)
+            temp[k++] = arr[i++];
 
-            ans[arr[left].second] += rightCnt;
+        while(j <= r)
+            temp[k++] = arr[j++];
 
-            temp.push_back(arr[left++]);
-        }
-
-        while(right <= r){
-
-            temp.push_back(arr[right++]);
-        }
-
-        for(int i = l; i <= r; i++){
-
-            arr[i] = temp[i - l];
-        }
+        for(int x = l; x <= r; x++)
+            arr[x] = temp[x - l];
     }
 
     void mergeSort(vector<pair<int,int>> &arr,
                    int l, int r,
-                   vector<int> &ans){
+                   vector<int> &ans) {
 
         if(l >= r) return;
 
@@ -202,7 +179,7 @@ public:
 
         vector<pair<int,int>> arr;
 
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < n; i++) {
 
             arr.push_back({nums[i], i});
         }
