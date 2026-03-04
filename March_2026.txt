@@ -4,3 +4,5 @@ Day 2 :
       1. Remove Duplicates from Sorted List (LC : 83)
 Day 3 :
       1. Reverse Pairs (LC : 493)
+Day 4 :
+      1. Count of Smaller Numbers After Self ( LC : 315)
