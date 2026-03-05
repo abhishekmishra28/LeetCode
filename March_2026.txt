@@ -7,3 +7,5 @@ Day 3 :
 Day 4 :
       1. Count of Smaller Numbers After Self ( LC : 315)
       2. Sort an Array (LC : 912)
+Day 5 :
+      1. Minimum Difference Between Highest and Lowest of K Scores (LC : 1984)
