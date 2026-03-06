@@ -12,3 +12,5 @@ Day 5 :
       2. Defanging an IP Address (LC : 1108)
       3. Check if All Characters Have Equal Number of Occurrences (LC : 1941)
       4. Maximum Number of Vowels in a Substring of Given Length (LC : 1456)
+Day 6 :
+      1. Number of Sub-arrays of Size K and Average ≥ Threshold (LC : 1343)
