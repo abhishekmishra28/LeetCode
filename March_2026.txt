@@ -18,3 +18,4 @@ Day 6 :
       3. Minimum Recolors to Get K Consecutive Black Blocks (LC : 2379)
 Day 7 :
       1. Maximum Sum of Distinct Subarrays With Length K (LC : 2461)
+      2. Find the K-Beauty of a Number (LC : 2269)
