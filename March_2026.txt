@@ -16,3 +16,5 @@ Day 6 :
       1. Number of Sub-arrays of Size K and Average ≥ Threshold (LC : 1343)
       2. Maximum Points You Can Obtain from Cards (LC : 1423)
       3. Minimum Recolors to Get K Consecutive Black Blocks (LC : 2379)
+Day 7 :
+      1. Maximum Sum of Distinct Subarrays With Length K (LC : 2461)
