@@ -20,3 +20,5 @@ Day 7 :
       1. Maximum Sum of Distinct Subarrays With Length K (LC : 2461)
       2. Find the K-Beauty of a Number (LC : 2269)
       3. Check Knight Tour Configuration (LC : 2596)
+Day 8 :
+      1. Grumpy Bookstore Owner (LC : 1052)
