@@ -26,3 +26,5 @@ Day 9 :
       1. House Robber II (LC : 213)
       2. Jump Game II (LC : 45)
       3. Longest Increasing Subsequence (LIS) (LC : 300)
+Day 10 :
+      1. Unique Paths (LC : 62)
