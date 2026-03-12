@@ -31,3 +31,4 @@ Day 10 :
       2. Unique Paths II (LC : 63)
 Day 11 :
       1. Minimum Path Sum (LC : 64)
+      2. Maximal Square (LC : 221)
