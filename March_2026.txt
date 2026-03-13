@@ -33,4 +33,5 @@ Day 11 :
       1. Minimum Path Sum (LC : 64)
       2. Maximal Square (LC : 221)
 Day 12 :
-      1. 120. Triangle (LC : 120)
+      1. Triangle (LC : 120)
+      2. Minimum Falling Path Sum (LC : 931)
