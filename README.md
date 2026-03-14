@@ -63,7 +63,7 @@ This helps build patterns instead of memorizing answers.
 | BST | 9 |
 | Graphs | 17 |
 | Dynamic Programming | 16 |
-| Recursion | 19 |
+| Recursion | 20 |
 | Greedy Algorithm | 10 |
 | Stack | 8 |
 | Queues | 1 |
@@ -72,7 +72,7 @@ This helps build patterns instead of memorizing answers.
 | Design | 5 |
 | Placements | 5 |
 | Others | 0 |
-| **Total** | **208** |
+| **Total** | **209** |
 
 (I update this table as I go.)
 
