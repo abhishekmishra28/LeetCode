@@ -35,3 +35,5 @@ Day 11 :
 Day 12 :
       1. Triangle (LC : 120)
       2. Minimum Falling Path Sum (LC : 931)
+Day 13 :
+      1. Minimum Cost For Tickets (LC : 983)
