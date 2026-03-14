@@ -39,3 +39,4 @@ Day 13 :
       1. Minimum Cost For Tickets (LC : 983)
       2. Number of Steps to Reduce a Number to Zero (LC : 1342)
       3. Check if Binary String Has at Most One Segment of Ones (LC : 1784)
+      4. Clear Digits (LC : 3174)
