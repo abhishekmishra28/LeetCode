@@ -40,3 +40,4 @@ Day 13 :
       2. Number of Steps to Reduce a Number to Zero (LC : 1342)
       3. Check if Binary String Has at Most One Segment of Ones (LC : 1784)
       4. Clear Digits (LC : 3174)
+      5. Sum Root to Leaf Numbers (LC : 129)
