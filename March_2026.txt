@@ -51,3 +51,5 @@ Day 16 :
       1. Maximum Repeating Substring (LC : 1668)
 Day 17 :
       1. Product of Array Except Self (LC : 238)
+Day 18 :
+      1. Minimum Average of Smallest and Largest Elements (LC : 3194)
